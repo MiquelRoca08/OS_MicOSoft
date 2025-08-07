@@ -1,9 +1,9 @@
 #include "hal.h"
-#include <arch/i686/gdt.h>
-#include <arch/i686/idt.h>
-#include <arch/i686/isr.h>
-#include <arch/i686/irq.h>
-#include <arch/i686/vga_text.h>
+#include <arch/i686/cpu/gdt.h>
+#include <arch/i686/cpu/idt.h>
+#include <arch/i686/cpu/isr.h>
+#include <arch/i686/cpu/irq.h>
+#include <arch/i686/io/vga_text.h>
 
 void HAL_Initialize()
 {

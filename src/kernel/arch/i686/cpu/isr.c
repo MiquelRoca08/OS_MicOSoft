@@ -1,7 +1,7 @@
 #include "isr.h"
 #include "idt.h"
 #include "gdt.h"
-#include "io.h"
+#include <arch/i686/io/io.h>
 #include <stdio.h>
 #include <stddef.h>
 #include <debug.h>

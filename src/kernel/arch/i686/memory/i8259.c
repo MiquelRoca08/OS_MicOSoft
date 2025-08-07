@@ -1,5 +1,5 @@
-#include "pic.h"
-#include "io.h"
+#include <arch/i686/io/pic.h>
+#include <arch/i686/io/io.h>
 #include <stdbool.h>
 
 #define PIC1_COMMAND_PORT           0x20

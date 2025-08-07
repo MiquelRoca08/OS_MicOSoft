@@ -1,7 +1,7 @@
 #include "irq.h"
-#include "pic.h"
-#include "i8259.h"
-#include "io.h"
+#include <arch/i686/io/pic.h>
+#include <arch/i686/memory/i8259.h>
+#include <arch/i686/io/io.h>
 #include <stddef.h>
 #include <util/arrays.h>
 #include "stdio.h"
